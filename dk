@@ -87,9 +87,12 @@ xkb_symbols "us" {
     include "us(euro)"
     name[Group1] = "Danish (US keyboard with Danish letters)";
 
-    key <AC01> { [	   a,          A,        aring,            Aring  ] };
-    key <AD03> { [	   e,          E,        ae,               AE     ] };
-    key <AD09> { [	   o,          O,        oslash,           Oslash ] };
+    key <AC01> { [ a,          A,           aring,      Aring		] };
+    key <AD03> { [ e,          E,           ae,         AE		] };
+    key <AD09> { [ o,          O,           oslash,	Oslash		] };
+    key <TLDE> { [ grave,      asciitilde,  dead_grave, dead_tilde      ] };
+    key <AE06> { [ 6, 	       asciicircum, 6,		dead_circumflex ] };
+    key <AC11> { [ apostrophe, quotedbl,    dead_acute,	dead_diaeresis 	] };
 
 };
 
