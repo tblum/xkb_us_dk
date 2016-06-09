@@ -80,6 +80,19 @@ xkb_symbols "dvorak" {
     key <AD12> { [  asciitilde, asciicircum, dead_diaeresis, dead_tilde ] };
 };
 
+// A few Danish characters on basic US keymap with euro on 5.
+// by Troels Blum <troels@blum.dk>
+partial alphanumeric_keys
+xkb_symbols "us" {
+    include "us(euro)"
+    name[Group1] = "Danish (US keyboard with Danish letters)";
+
+    key <AC01> { [	   a,          A,        aring,            Aring  ] };
+    key <AD03> { [	   e,          E,        ae,               AE     ] };
+    key <AD09> { [	   o,          O,        oslash,           Oslash ] };
+
+};
+
 // EXTRAS:
 
 partial alphanumeric_keys
