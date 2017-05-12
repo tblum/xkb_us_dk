@@ -93,6 +93,7 @@ xkb_symbols "us" {
     key <TLDE> { [ grave,      asciitilde,  dead_grave, dead_tilde      ] };
     key <AE06> { [ 6, 	       asciicircum, 6,		dead_circumflex ] };
     key <AC11> { [ apostrophe, quotedbl,    dead_acute,	dead_diaeresis 	] };
+    key <AC02> { [ s,          S,           ssharp,	NoSymbol	] };
 
 };
 
