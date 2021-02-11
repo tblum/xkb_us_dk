@@ -1,4 +1,6 @@
 # xkb_us_dk
+
+## Linux
 XKB Keyboard Layout for US(€) keyboard with the Danish letters øæåØÆÅ
 
 The "dk" file should be placed in /usr/share/X11/xkb/symbols
@@ -10,3 +12,6 @@ You may need to run
 $ sudo dpkg-reconfigure xkb-data
 
 For the changes to take effect
+
+## Windows
+Download [Microsoft Keyboard Layout Creator (MSKLC)](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
