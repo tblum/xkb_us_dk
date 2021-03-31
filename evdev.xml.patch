@@ -1,0 +1,13 @@
+@@ -2955,6 +2754,12 @@
+             <description>Danish (Dvorak)</description>
+           </configItem>
+         </variant>
++        <variant>
++          <configItem>
++            <name>us</name>
++            <description>Danish (US keyboard with Danish letters)</description>
++          </configItem>
++        </variant>
+       </variantList>
+     </layout>
+     <layout>
