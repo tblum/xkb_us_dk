@@ -21,3 +21,5 @@ For the changes to take effect
 
 ## Windows
 Download [Microsoft Keyboard Layout Creator (MSKLC)](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
+
+Load, compile, and install "us_dk.klc"
