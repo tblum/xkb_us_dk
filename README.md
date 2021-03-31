@@ -10,7 +10,9 @@ XKB Keyboard Layout for US(€) keyboard with the Danish letters øæåØÆÅ & 
 sudo patch /usr/share/X11/xkb/symbols/dk < dk.patch
 sudo patch /usr/share/X11/xkb/rules/evdev.xml < evdev.xml.patch
 ```
+
 You now have a keyboar called "Danish (US keyboard with Danish letters)"
+
 You may need to run
 ```
 sudo dpkg-reconfigure xkb-data
